@@ -4,7 +4,7 @@
 #
 Name     : perl-PHP-Serialization
 Version  : 0.34
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/B/BO/BOBTFISH/PHP-Serialization-0.34.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BO/BOBTFISH/PHP-Serialization-0.34.tar.gz
 Summary  : simple flexible means of converting the output of PHP's serialize() into the equivalent Perl memory structure, and vice versa.
@@ -83,4 +83,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/PHP/Serialization.pm
+/usr/lib/perl5/*
